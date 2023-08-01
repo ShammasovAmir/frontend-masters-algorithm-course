@@ -1,0 +1,16 @@
+fn search(arr, lo, hi, n) {
+    /**
+    * lo is included, hi is excluded!!!
+    */
+    do {
+        m := Math.floor(lo + (hi - lo) / 2)
+        val := arr[m]
+
+        /* lo is always inclusive, hi is exclusive */
+        if val = n return true
+        else if val > m lo := m + 1
+        else hi := m
+    } while lo < hi
+
+    return false // -1
+}

@@ -1,0 +1,6 @@
+Given two crystal balls that will break if dropped from high enough distance, determine the exact distance spot where it'll break in the most optimized way.
+
+[false,false,false, .. true, true, true, true]
+O                      ^                     N
+
+
